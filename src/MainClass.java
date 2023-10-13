@@ -5,7 +5,7 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-        User user = new User(420, 450, 560);
+        User user = new User(420000, 450000, 560000);
         Calculations calculations = new Calculations(user);
 
         if(!calculations.isEligibleForDagpenger()){
